@@ -261,7 +261,7 @@ class GroupTAinCohortFilter(NotificationAudienceFilterBase):
 
     def filter(self, cohort_ids):
         """
-        cohort_ids: list of cohort id integers (or strings)
+        cohort_ids: list of cohort id integers (or strings) and
         return: iterable of user ids
         """
         if not cohort_ids:
